@@ -10,8 +10,8 @@ export const authOptions = {
       clientSecret: process.env.GITHUB_SECRET,
     }),
     FacebookProvider({
-      clientId: process.env.FACEBOOK_CLIENT_ID,
-      clientSecret: process.env.FACEBOOK_CLIENT_SECRET
+      clientId: 576279751121211,
+      clientSecret: '4986bea3cf990e94c01057720d080684'
     })
     // ...add more providers here
   ],
