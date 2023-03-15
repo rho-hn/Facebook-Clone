@@ -23,7 +23,7 @@ return (
 </div>
 </div>
 {contacts.map(contact=>(
-    <Contact src={contact.src} name={contact.name}/>
+    <Contact key='key' src={contact.src} name={contact.name}/>
 ))}
 </div>
 )}

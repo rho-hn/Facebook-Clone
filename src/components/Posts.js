@@ -34,6 +34,7 @@ import { useCollection } from 'react-firebase-hooks/firestore';
             {value.docs.map((doc) => (
               <React.Fragment key={doc.id}>
                 <Post
+                key="key"
                 name={doc.data().name}
                 email={doc.data().email}
                 image={doc.data().image}
@@ -50,6 +51,7 @@ import { useCollection } from 'react-firebase-hooks/firestore';
         : 
           posts.map((post)=>
           <Post
+          key="key"
           name={post.name}
           email={post.email}
           image={post.image}
